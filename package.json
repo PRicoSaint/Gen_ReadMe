@@ -1,0 +1,23 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "Ever needed a quick Readme.md generator for your projects? Look no further.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRicoSaint/Gen_ReadMe.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/PRicoSaint/Gen_ReadMe/issues"
+  },
+  "homepage": "https://github.com/PRicoSaint/Gen_ReadMe#readme"
+}
