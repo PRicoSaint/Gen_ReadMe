@@ -1,0 +1,18 @@
+{
+	"username": "steve99",
+	"email": "steve99@gmail.com",
+	"title": "AoS",
+	"description": "This will be an app to build armies.",
+	"installation": "Download and run it.",
+	"usage": "Hit GO!",
+	"contributors": "me, myself, irene",
+	"guidelines": "Dont screw it up or remove my name.",
+	"tests": "Just give it a shot and see if any bugs occur.",
+	"license": "IBM",
+	"stack": [
+		"HTML",
+		"CSS",
+		"Javascript",
+		"node.js"
+	]
+}
