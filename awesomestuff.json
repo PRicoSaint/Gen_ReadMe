@@ -1,0 +1,18 @@
+{
+	"username": "PRicoSaint",
+	"email": "pricosaint@gmail.com",
+	"title": "Awesomestuff",
+	"description": "This will be test number 6",
+	"installation": "Download it",
+	"usage": "hit -run",
+	"contributors": "Myself",
+	"guidelines": "You dont",
+	"tests": "--test",
+	"license": "Eclipse",
+	"stack": [
+		"HTML",
+		"CSS",
+		"Javascript",
+		"node.js"
+	]
+}
