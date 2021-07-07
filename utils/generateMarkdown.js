@@ -76,7 +76,7 @@ function renderLicenseBadge(license) {
     default:
       badge = '';
   }
-
+return badge;
 }
 
 
