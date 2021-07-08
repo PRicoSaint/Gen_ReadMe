@@ -120,7 +120,7 @@ comm.prompt([
     ${link}
 
   ## Contributors: 
-    ${response.contributors.split(' ').join(', ')}
+    ${response.contributors.split(', ').join(', ')}
 
   If you would like to contribute please follow:
 
