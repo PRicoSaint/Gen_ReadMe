@@ -2,5 +2,6 @@ node_modules
 DS_Store
 test.md
 Acceptancecriteria.png
-
-
+utils
+generateMarkdown.js
+GIF.md

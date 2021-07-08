@@ -2,6 +2,7 @@
 let comm = require('inquirer');
 const fs = require('fs');
 
+// This section asks the user what they would like and stores the answers using inquirer package.
 comm.prompt([
     {
         type: 'input',
@@ -51,7 +52,7 @@ comm.prompt([
         name: 'guidelines',
     },
     {
-        // What are these test instructions????
+        // Not always used.
         type: 'input',
         message: "Test instructions",
         name: 'tests',
@@ -71,11 +72,13 @@ comm.prompt([
     },
 
 ])
-    // function to write README file
+    // function to write README file. This takes the response and outputs onto the readme.md
     .then((response) => {
+      // Takes the license option chosen and matches it to the corresponding badge and link.
         let license = response.license.toLowerCase();
         let badge = renderLicenseBadge(license);
         let link = renderLicenseLink(license);
+        // Takes the total of the languages chosen and formats them in better format for markdown.
         let languages = response.stack;
         let result = languages.join("\n\t")
 
@@ -156,7 +159,8 @@ ${response.email}
 
 
 `;
-        fs.writeFile("GenReadMe.md", GeneratedReadme, (err) =>
+// the above format is then used to create a new file, called README.md. If any error is encountered it is displayed. If successful, be prepared to see Success!
+        fs.writeFile("Gen_README.md", GeneratedReadme, (err) =>
             err ? console.log(err) : console.log('Success!'));
         const filename = `${response.title.toLowerCase().split(' ').join('')}.json`;
         fs.writeFile(filename, JSON.stringify(response, null, '\t'), (err) =>
@@ -173,6 +177,9 @@ ${response.email}
 
 
 
+
+
+// Both of these functions take response from user and find the badge it corresponds to. Loads it into the badge variable. 
     function renderLicenseBadge(license) {
         switch (license){
           case "apache":
@@ -232,7 +239,7 @@ ${response.email}
         return badge;
 }
 
-
+// Loads corresponding license link into link variable.
 function renderLicenseLink(license) {
     switch (license){
       case "apache":

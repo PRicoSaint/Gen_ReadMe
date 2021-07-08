@@ -1,0 +1,18 @@
+{
+	"username": "PRicoSaint",
+	"email": "santosesteban09@gmail.com",
+	"title": "Gen_Readme",
+	"description": "This project is a README.md generator. It will take the user input of name, description, license and other things to then generate a Readme.md using this information. This generator makes use of inquirer NPM package. While not perfect, it makes a great start to any project Readme. The user input is taken through the command line using node.js. Please video for a walkthrough on functionality.",
+	"installation": "Download the repo. Make sure to also install the inquirer package using \"npm i\".",
+	"usage": "It is intialized using \"node index.js\".",
+	"contributors": "If you have any suggestions or ideas for improvement, please do not hesistate to fork and create a pull request to be reviewed by myself. ",
+	"guidelines": "The sky's the limit. Just please fork and submit pull request.",
+	"tests": "None at this moment.",
+	"license": "MIT",
+	"stack": [
+		"HTML",
+		"CSS",
+		"Javascript",
+		"node.js"
+	]
+}

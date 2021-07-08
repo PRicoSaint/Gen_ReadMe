@@ -1,0 +1,17 @@
+{
+	"username": "Steve29",
+	"email": "steves29@gmail.com",
+	"title": "Project1",
+	"description": "This is a gif test project.",
+	"installation": "Download the repo.",
+	"usage": "using the index.js",
+	"contributors": "Steve",
+	"guidelines": "None",
+	"tests": "None",
+	"license": "Eclipse",
+	"stack": [
+		"HTML",
+		"CSS",
+		"Javascript"
+	]
+}
