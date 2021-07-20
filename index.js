@@ -160,7 +160,7 @@ ${response.email}
 
 `;
 // the above format is then used to create a new file, called README.md. If any error is encountered it is displayed. If successful, be prepared to see Success!
-        fs.writeFile("Gen_README.md", GeneratedReadme, (err) =>
+        fs.writeFile(`${__dirname/Output/"README.md"}`, GeneratedReadme, (err) =>
             err ? console.log(err) : console.log('Success!'));
         const filename = `${response.title.toLowerCase().split(' ').join('')}.json`;
         fs.writeFile(filename, JSON.stringify(response, null, '\t'), (err) =>

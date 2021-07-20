@@ -1,0 +1,17 @@
+{
+	"username": "TeamProfileGen",
+	"email": "santosesteban09@gmail.com",
+	"title": "Team Profile Generator",
+	"description": "This project will take user input, through the command line, and create a Team Profile Web page. The user add any number of engineers and/or interns. The program will then create cards according to the user input and output it onto a html file. This will be an easy reference for any manager to see employee id, github, name and role. You can also click on the email and directly open the default email app to send the team member an email. When clicking the github link, a new tab or page will open, allowing easy return to team profile page.",
+	"installation": "download the repo",
+	"usage": "node index.js",
+	"contributors": "Any contributions just need to submit pull request. Suggestions and critique are highly appreciated.",
+	"guidelines": "As said above Suggestins and critique are appreciated. This is a solo project by myself.",
+	"tests": "you can run a couple of test under npm test",
+	"license": "Unlicense",
+	"stack": [
+		"HTML",
+		"Javascript",
+		"node.js"
+	]
+}
